@@ -1,0 +1,34 @@
+@import "./index.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Gemunu Libre", sans-serif !important;
+}
+h5 {
+  font-family: "Lato", sans-serif;
+}
+
+.ui.form {
+  .ui.input {
+    input {
+      border: 1px solid $border-grey-light;
+      font-size: 16px;
+    }
+  }
+  .actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .ui.button.submit {
+    background-color: $primary;
+    color: $font-light;
+    margin: 0;
+  }
+}
